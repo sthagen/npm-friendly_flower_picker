@@ -1,1 +1,81 @@
-{}
+{
+  "name": "friendly_flower_picker",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/ffp",
+  "dependencies": {
+    "@craco/craco": "^5.6.3",
+    "@types/jest": "^22.2.3",
+    "debounce": "^1.1.0",
+    "fpsmeter": "^0.3.1",
+    "fscreen": "^1.0.2",
+    "geolib": "^2.0.24",
+    "gsap": "^3.2.0",
+    "immer": "^3.2.0",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.22.1",
+    "moment-duration-format": "^2.2.2",
+    "object.entries": "^1.0.4",
+    "path-to-regexp": "^1.7.0",
+    "puppeteer-extra-plugin-flash": "^2.0.7",
+    "querystring": "^0.2.0",
+    "rc-slider": "8.6.0",
+    "re-resizable": "^6.1.0",
+    "react": "^16.12",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.12",
+    "react-draggable": "^4.2.0",
+    "react-fast-compare": "^2.0.0",
+    "react-moment": "^0.7.0",
+    "react-page-visibility": "^3.0.0",
+    "react-redux": "^7.1.3",
+    "react-rotary-knob": "^1.1.5",
+    "react-rotary-knob-skin-pack": "^1.0.2",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "react-swf": "^1.0.7",
+    "recompose": "^0.27.1",
+    "redux": "^4.0.4",
+    "uuid": "^3.3.2",
+    "xml2js": "^0.4.22"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1",
+    "@storybook/addon-backgrounds": "5.1",
+    "@storybook/addon-knobs": "5.1",
+    "@storybook/addon-links": "^5.1",
+    "@storybook/addons": "^5.1",
+    "@storybook/react": "^5.1",
+    "babel-core": "^6.26.0",
+    "babel-runtime": "^6.26.0",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer-extra": "^2.0.7",
+    "puppeteer-extra-plugin-user-data-dir": "^2.0.7",
+    "puppeteer-extra-plugin-user-preferences": "^2.0.7",
+    "react-test-renderer": "^16.3.0"
+  },
+  "description": "Flowers shall be picked in a friendly manner.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sthagen/npm-friendly_flower_picker.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
